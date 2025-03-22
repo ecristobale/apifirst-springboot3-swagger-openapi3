@@ -1,0 +1,38 @@
+openapi: 3.0.4
+info:
+  title: Greetings - API First Design
+  description: |-
+    This is a sample Greeting Service based on the OpenAPI 3.0 specification.
+    It is developed with Spring Boot 3 and Java 17.
+
+    Contact links:
+    - [Github](https://github.com/ecristobale)
+    - [Linkedin](https://www.linkedin.com/in/ecristobale)
+  contact:
+    email: edu_ce_1988@hotmail.com
+  version: 1.0.12
+
+tags:
+  - name: greetings
+    description: Simple greetings actions
+paths:
+  /greetings:
+    get:
+      tags:
+        - greetings
+      summary: Get greetings summary
+      description: Get greetings description
+      operationId: getGreetings
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Greetings'
+        '404':
+          description: No greetings found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GreetingNotFoundError'
