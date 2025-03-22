@@ -14,7 +14,7 @@ The **goal** of this project is to create a simple app developed with **API Firs
 
 ### Screenshots:
 
-* View of API First .yml and generated .class:
+* View of API First `.yml` and generated `.class`:
 ![Alt text](readme-screenshots/apifirst-swagger-openapi-01.png?raw=true "API first .yml and generated .class")
 
 * Swagger UI:
