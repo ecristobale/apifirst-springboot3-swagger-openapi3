@@ -36,3 +36,15 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/GreetingNotFoundError'
+components:
+  schemas:
+    Greetings:
+      type: object
+      properties:
+        hi:
+          type: string
+    GreetingNotFoundError:
+      type: object
+      properties:
+        message:
+          type: string
