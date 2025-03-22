@@ -10,7 +10,7 @@ info:
     - [Linkedin](https://www.linkedin.com/in/ecristobale)
   contact:
     email: edu_ce_1988@hotmail.com
-  version: 1.0.12
+  version: 0.0.1-SNAPSHOT
 
 tags:
   - name: greetings
